@@ -16,7 +16,8 @@ public class CourseCodeLauncher {
         courseCodeMap.readFile("resources/vakcodes.txt");
 
         courseCodeMap.printCourseCodes();
-
-
+        courseCodeMap.printECTS();
+        System.out.println();
+        System.out.println(courseCodeMap.printSumECTS());
     }
 }

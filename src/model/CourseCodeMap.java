@@ -42,4 +42,19 @@ public class CourseCodeMap {
             System.out.println(code);
         }
     }
+
+    public void printECTS() {
+        for (Integer value : courseCodes.values()) {
+            System.out.println(value);
+        }
+    }
+
+    public int printSumECTS() {
+        int sum = 0;
+        for (Integer value : courseCodes.values()) {
+            sum += value;
+        }
+
+        return sum;
+    }
 }
