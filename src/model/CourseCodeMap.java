@@ -64,5 +64,14 @@ public class CourseCodeMap {
         }
     }
 
+    public void printSortedCourseCodes() {
+        String[] codes = courseCodes.keySet().toArray(new String[0]);
+        Arrays.sort(codes);
+
+        for (String code : codes) {
+            System.out.println(code + " " + courseCodes.get(code));
+        }
+    }
+
 
 }

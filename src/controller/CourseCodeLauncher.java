@@ -21,5 +21,8 @@ public class CourseCodeLauncher {
         System.out.println(courseCodeMap.printSumECTS());
         System.out.println();
         courseCodeMap.printEntry();
+        courseCodeMap.printSortedCourseCodes();
     }
+
+
 }
