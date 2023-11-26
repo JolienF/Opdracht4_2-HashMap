@@ -19,5 +19,7 @@ public class CourseCodeLauncher {
         courseCodeMap.printECTS();
         System.out.println();
         System.out.println(courseCodeMap.printSumECTS());
+        System.out.println();
+        courseCodeMap.printEntry();
     }
 }

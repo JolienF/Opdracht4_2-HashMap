@@ -57,4 +57,12 @@ public class CourseCodeMap {
 
         return sum;
     }
+
+    public void printEntry() {
+        for (Map.Entry<String, Integer> entry : courseCodes.entrySet()) {
+            System.out.println(entry);
+        }
+    }
+
+
 }
